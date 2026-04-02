@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import GoogleTranslate from '@/components/GoogleTranslate'
+import LanguageToggle from '@/components/LanguageToggle'
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -32,7 +32,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <GoogleTranslate />
+          <LanguageToggle />
           <Link
             href="/contact"
             className="bg-mauve text-white px-5 py-2 rounded-full text-sm font-body hover:bg-charcoal transition-colors"
