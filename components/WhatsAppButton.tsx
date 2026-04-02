@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/601160979138?text=Hi%20Jeanie!%20I%20found%20you%20on%20Sweet%20Arrival%20and%20would%20love%20to%20know%20more."
+      href="https://wa.me/601160979138?text=Hi!%20I%20found%20Sweet%20Arrival%20and%20would%20love%20to%20know%20more."
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-[#25D366] text-white px-4 py-3 rounded-full shadow-lg hover:bg-[#20bb5a] transition-colors"

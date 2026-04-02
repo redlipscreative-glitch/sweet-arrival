@@ -11,7 +11,7 @@ export default function BookingForm() {
       <p className="text-xs font-body text-charcoal/40 text-center py-3">
         Prefer WhatsApp?{' '}
         <a href="https://wa.me/601160979138" className="text-mauve hover:underline">
-          Message Jeanie directly
+          Message us directly
         </a>
       </p>
     </div>

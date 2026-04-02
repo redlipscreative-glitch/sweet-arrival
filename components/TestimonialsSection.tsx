@@ -2,7 +2,7 @@ const testimonials = [
   {
     name: 'Sarah Lim',
     location: 'Penang',
-    text: 'Jeanie made me feel so comfortable during my maternity shoot. The photos are absolutely stunning — I cry every time I look at them.',
+    text: 'The photographer made me feel so comfortable during my maternity shoot. The photos are absolutely stunning — I cry every time I look at them.',
     session: 'Maternity Shoot',
   },
   {
