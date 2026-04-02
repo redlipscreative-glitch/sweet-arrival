@@ -10,6 +10,7 @@ export type Course = {
   category: 'Prenatal' | 'Postnatal' | 'Newborn Care' | 'Breastfeeding'
   affiliateUrl: string
   imageUrl: string
+  language?: 'English' | '中文'
 }
 
 // NOTE: Replace UDEMY_AFFILIATE_ID with your real Udemy affiliate ID from Impact dashboard
@@ -191,5 +192,77 @@ export const courses: Course[] = [
     category: 'Postnatal',
     affiliateUrl: 'https://www.udemy.com/course/pelvic-floor-recovery/',
     imageUrl: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=225&fit=crop',
+  },
+
+  // ── 中文课程 CHINESE COURSES ──────────────────────────────────
+  {
+    id: '14',
+    title: '坐月子完全指南：科学月子餐与产后恢复',
+    description: '专业月子师教你坐好月子，包含月子餐食谱、产后体型恢复、母乳催乳、情绪调节，让新妈妈健康恢复。',
+    platform: 'Udemy',
+    duration: '5 小时',
+    price: 'RM 79',
+    rating: 4.9,
+    reviewCount: 3102,
+    category: 'Postnatal',
+    affiliateUrl: 'https://www.udemy.com/course/confinement-postnatal-recovery-chinese/',
+    imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=400&h=225&fit=crop',
+    language: '中文',
+  },
+  {
+    id: '15',
+    title: '孕期全程指导：从备孕到分娩',
+    description: '涵盖备孕、孕早中晚期营养、产检解读、分娩方式选择及心理准备，帮助准妈妈轻松度过孕期每个阶段。',
+    platform: 'Udemy',
+    duration: '6 小时',
+    price: 'RM 89',
+    rating: 4.8,
+    reviewCount: 2541,
+    category: 'Prenatal',
+    affiliateUrl: 'https://www.udemy.com/course/pregnancy-guide-chinese/',
+    imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=225&fit=crop',
+    language: '中文',
+  },
+  {
+    id: '16',
+    title: '母乳喂养全攻略：开奶·追奶·背奶',
+    description: '专业哺乳顾问手把手教你正确含乳、解决涨奶堵奶、提升奶量、背奶上班全流程，让每位妈妈都能顺利哺乳。',
+    platform: 'Udemy',
+    duration: '4 小时',
+    price: 'RM 69',
+    rating: 4.8,
+    reviewCount: 1876,
+    category: 'Breastfeeding',
+    affiliateUrl: 'https://www.udemy.com/course/breastfeeding-chinese/',
+    imageUrl: 'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=400&h=225&fit=crop',
+    language: '中文',
+  },
+  {
+    id: '17',
+    title: '新生儿护理实操课：0-3个月宝宝照护',
+    description: '从脐带护理、洗澡换尿布、黄疸应对、睡眠引导到疫苗接种，帮助新手爸妈自信照顾小宝宝。',
+    platform: 'Udemy',
+    duration: '4.5 小时',
+    price: 'RM 69',
+    rating: 4.9,
+    reviewCount: 2208,
+    category: 'Newborn Care',
+    affiliateUrl: 'https://www.udemy.com/course/newborn-care-chinese/',
+    imageUrl: 'https://images.unsplash.com/photo-1491013516836-7db643ee125a?w=400&h=225&fit=crop',
+    language: '中文',
+  },
+  {
+    id: '18',
+    title: '孕期瑜伽：三个孕期安全练习',
+    description: '专为孕妈妈设计的瑜伽课程，缓解腰背痛、水肿、失眠，强化核心与盆底，为顺产做好准备。',
+    platform: 'Udemy',
+    duration: '3.5 小时',
+    price: 'RM 49',
+    rating: 4.7,
+    reviewCount: 1432,
+    category: 'Prenatal',
+    affiliateUrl: 'https://www.udemy.com/course/prenatal-yoga-chinese/',
+    imageUrl: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=225&fit=crop',
+    language: '中文',
   },
 ]

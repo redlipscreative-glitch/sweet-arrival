@@ -22,13 +22,18 @@ export default function CourseCard({ course }: { course: Course }) {
         className="w-full h-44 object-cover"
       />
       <div className="p-5 flex flex-col flex-1">
-        <div className="flex gap-2 mb-3">
+        <div className="flex flex-wrap gap-2 mb-3">
           <span className={`text-xs px-2 py-0.5 rounded-full font-body ${platformColors[course.platform]}`}>
             {course.platform}
           </span>
           <span className={`text-xs px-2 py-0.5 rounded-full font-body ${categoryColors[course.category]}`}>
             {course.category}
           </span>
+          {course.language === '中文' && (
+            <span className="text-xs px-2 py-0.5 rounded-full font-body bg-red-100 text-red-700 font-semibold">
+              中文
+            </span>
+          )}
         </div>
         <h3 className="font-body font-semibold text-charcoal text-sm leading-snug mb-2 line-clamp-2">
           {course.title}
