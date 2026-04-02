@@ -5,6 +5,7 @@ const platformColors: Record<Product['platform'], string> = {
   Lazada: 'bg-orange-100 text-orange-700',
   Shopee: 'bg-red-100 text-red-700',
   Amazon: 'bg-yellow-100 text-yellow-800',
+  iHerb: 'bg-green-100 text-green-700',
 }
 
 export default function ProductCard({ product }: { product: Product }) {
