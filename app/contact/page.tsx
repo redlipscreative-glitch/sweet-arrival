@@ -7,7 +7,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-blush/20 via-cream to-mauve/10 py-20 px-4 text-center">
         <p className="text-gold font-body tracking-widest uppercase text-xs mb-3">Let&apos;s Connect</p>
-        <h1 className="font-heading text-5xl text-charcoal mb-4">Book Your Session</h1>
+        <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl text-charcoal mb-4">Book Your Session</h1>
         <p className="font-body text-charcoal/60 max-w-xl mx-auto">
           Ready to capture your most precious moments? Fill in the form below or WhatsApp us directly.
         </p>

@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
     <section className="bg-blush/20 py-20">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-4xl text-charcoal mb-3">Mums Love Sweet Arrival</h2>
+          <h2 className="font-heading text-3xl md:text-4xl text-charcoal mb-3">Mums Love Sweet Arrival</h2>
           <p className="font-body text-charcoal/60">Real experiences from our community</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

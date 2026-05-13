@@ -59,6 +59,9 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+          <div className="py-3 border-b border-blush/50">
+            <LanguageToggle />
+          </div>
           <Link
             href="/contact"
             className="block mt-3 bg-mauve text-white text-center px-5 py-2.5 rounded-full text-sm font-body"

@@ -32,7 +32,7 @@ export default function FeatureBlocks() {
   return (
     <section className="max-w-6xl mx-auto px-4 py-20">
       <div className="text-center mb-12">
-        <h2 className="font-heading text-4xl text-charcoal mb-3">Everything You Need</h2>
+        <h2 className="font-heading text-3xl md:text-4xl text-charcoal mb-3">Everything You Need</h2>
         <p className="font-body text-charcoal/60">From bump to baby, we have got you covered.</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

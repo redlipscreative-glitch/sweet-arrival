@@ -33,7 +33,7 @@ export default function PhotoshootPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-blush/20 via-cream to-mauve/10 py-20 px-4 text-center">
         <p className="text-gold font-body tracking-widest uppercase text-xs mb-3">Sweet Arrival Photography</p>
-        <h1 className="font-heading text-5xl text-charcoal mb-4">Every Moment, Preserved</h1>
+        <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl text-charcoal mb-4">Every Moment, Preserved</h1>
         <p className="font-body text-charcoal/60 max-w-xl mx-auto mb-6">
           Professional maternity, newborn, and family photoshoots in Penang — expanding to all of Malaysia.
         </p>
@@ -55,7 +55,7 @@ export default function PhotoshootPage() {
               key={pkg.name}
               className={`rounded-3xl p-8 flex flex-col ${
                 pkg.highlight
-                  ? 'bg-mauve text-white shadow-xl scale-105'
+                  ? 'bg-mauve text-white shadow-xl md:scale-105'
                   : 'bg-white shadow-sm border border-blush/30'
               }`}
             >

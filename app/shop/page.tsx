@@ -7,7 +7,7 @@ export default function ShopPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-yellow-50 via-cream to-blush/20 py-20 px-4 text-center">
         <p className="text-gold font-body tracking-widest uppercase text-xs mb-3">Curated for Mums</p>
-        <h1 className="font-heading text-5xl text-charcoal mb-4">Shop Sweet Arrival</h1>
+        <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl text-charcoal mb-4">Shop Sweet Arrival</h1>
         <p className="font-body text-charcoal/60 max-w-xl mx-auto">
           Hand-picked essentials for every stage — maternity, newborn, breastfeeding, and postpartum. Shop from Lazada, Shopee, and Amazon. Ships across Asia.
         </p>

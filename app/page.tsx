@@ -20,10 +20,10 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="flex items-end justify-between mb-8">
           <div>
-            <h2 className="font-heading text-3xl text-charcoal">Mum&rsquo;s Favourites</h2>
+            <h2 className="font-heading text-2xl sm:text-3xl text-charcoal">Mum&rsquo;s Favourites</h2>
             <p className="font-body text-charcoal/60 text-sm mt-1">Best-selling picks for every stage</p>
           </div>
-          <Link href="/shop" className="text-mauve font-body text-sm hover:text-charcoal transition-colors">
+          <Link href="/shop" className="text-mauve font-body text-sm hover:text-charcoal transition-colors shrink-0 ml-4">
             View all →
           </Link>
         </div>
@@ -38,10 +38,10 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 pb-16">
         <div className="flex items-end justify-between mb-8">
           <div>
-            <h2 className="font-heading text-3xl text-charcoal">Learn from the Best</h2>
+            <h2 className="font-heading text-2xl sm:text-3xl text-charcoal">Learn from the Best</h2>
             <p className="font-body text-charcoal/60 text-sm mt-1">Expert courses for every stage of your journey</p>
           </div>
-          <Link href="/courses" className="text-mauve font-body text-sm hover:text-charcoal transition-colors">
+          <Link href="/courses" className="text-mauve font-body text-sm hover:text-charcoal transition-colors shrink-0 ml-4">
             View all →
           </Link>
         </div>

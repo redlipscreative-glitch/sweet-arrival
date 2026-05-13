@@ -4,9 +4,10 @@ export default function BookingForm() {
       <iframe
         src="https://tally.so/embed/wkQ5Vd?hideTitle=1&transparentBackground=1"
         width="100%"
-        height="500"
+        height="700"
         frameBorder={0}
         title="Book a Photoshoot"
+        className="min-h-[500px]"
       />
       <p className="text-xs font-body text-charcoal/40 text-center py-3">
         Prefer WhatsApp?{' '}
