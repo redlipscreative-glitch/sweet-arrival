@@ -32,7 +32,6 @@ const galleryImages = [
   { src: '/gallery/3480520607064757612_3480520594297265384.jpg', alt: 'Studio session' },
   { src: '/gallery/3480520607064757612_3480520594070926636.jpg', alt: 'Studio session 2' },
   { src: '/gallery/3479916636927603073.jpg', alt: 'Maternity shoot' },
-  { src: '/gallery/3479795837943744638.jpg', alt: 'Newborn moment' },
 ]
 
 export default function PhotoGallery() {
