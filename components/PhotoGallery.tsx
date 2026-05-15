@@ -22,7 +22,6 @@ const galleryImages = [
   { src: '/gallery/3483419825014077441.jpg', alt: 'Maternity sunset with flowers' },
   { src: '/gallery/3481970235350089318_3481970223538882780.jpg', alt: 'Sweet arrival session' },
   { src: '/gallery/3481970235350089318_3481970223077580805.jpg', alt: 'Sweet arrival session 2' },
-  { src: '/gallery/3481396394913482050_3481396384436168784.jpg', alt: 'Newborn session' },
   { src: '/gallery/3481396394913482050_3481396384763454600.jpg', alt: 'Newborn session 2' },
   { src: '/gallery/3481245377722865781_3481245367555923462.jpg', alt: 'Baby portrait' },
   { src: '/gallery/3481245377722865781_3481245367866269390.jpg', alt: 'Baby portrait 2' },
