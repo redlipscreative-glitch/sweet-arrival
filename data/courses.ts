@@ -7,7 +7,7 @@ export type Course = {
   price: string
   rating: number
   reviewCount: number
-  category: 'Prenatal' | 'Postnatal' | 'Newborn Care' | 'Breastfeeding'
+  category: 'Prenatal' | 'Postnatal' | 'Newborn Care' | 'Breastfeeding' | 'Wellness'
   affiliateUrl: string
   imageUrl: string
   language?: 'English' | '中文'
@@ -192,6 +192,47 @@ export const courses: Course[] = [
     category: 'Postnatal',
     affiliateUrl: 'https://www.udemy.com/course/pelvic-floor-recovery/',
     imageUrl: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=225&fit=crop',
+  },
+
+  // ── WELLNESS ─────────────────────────────────────────────────
+  {
+    id: '19',
+    title: 'Prenatal Pilates: Strength & Stability for Pregnancy',
+    description: 'Physiotherapist-designed pilates for pregnant mums — strengthen your core, reduce back pain, improve posture, and prepare your body for labour and recovery.',
+    platform: 'Udemy',
+    duration: '4.5 hours',
+    price: 'RM 69',
+    rating: 4.8,
+    reviewCount: 1734,
+    category: 'Wellness',
+    affiliateUrl: 'https://www.udemy.com/course/prenatal-pilates/',
+    imageUrl: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=225&fit=crop',
+  },
+  {
+    id: '20',
+    title: 'Mindful Pregnancy: Meditation & Breathing for Mums-to-Be',
+    description: 'Reduce pregnancy anxiety and stress with guided meditations, breathing exercises, and mindfulness practices — safe for all trimesters.',
+    platform: 'Udemy',
+    duration: '3 hours',
+    price: 'RM 49',
+    rating: 4.9,
+    reviewCount: 2108,
+    category: 'Wellness',
+    affiliateUrl: 'https://www.udemy.com/course/mindful-pregnancy-meditation/',
+    imageUrl: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400&h=225&fit=crop',
+  },
+  {
+    id: '21',
+    title: 'Pregnancy Yoga & Movement: All Trimesters',
+    description: 'Gentle yoga flows and movement practices tailored for each trimester — ease discomfort, boost energy, sleep better, and connect with your baby.',
+    platform: 'Udemy',
+    duration: '5 hours',
+    price: 'RM 59',
+    rating: 4.8,
+    reviewCount: 2956,
+    category: 'Wellness',
+    affiliateUrl: 'https://www.udemy.com/course/pregnancy-yoga-all-trimesters/',
+    imageUrl: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=225&fit=crop',
   },
 
   // ── 中文课程 CHINESE COURSES ──────────────────────────────────

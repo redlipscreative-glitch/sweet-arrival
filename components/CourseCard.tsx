@@ -11,6 +11,7 @@ const categoryColors: Record<Course['category'], string> = {
   Postnatal: 'bg-yellow-100 text-yellow-800',
   'Newborn Care': 'bg-green-100 text-green-700',
   Breastfeeding: 'bg-mauve/20 text-mauve',
+  Wellness: 'bg-teal-100 text-teal-700',
 }
 
 export default function CourseCard({ course }: { course: Course }) {

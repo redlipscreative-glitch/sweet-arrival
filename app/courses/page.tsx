@@ -37,7 +37,7 @@ export default function CoursesPage() {
           <h2 className="font-heading text-2xl text-charcoal">English Courses</h2>
         </div>
 
-        {(['Prenatal', 'Newborn Care', 'Breastfeeding', 'Postnatal'] as const).map((category) => {
+        {(['Prenatal', 'Wellness', 'Newborn Care', 'Breastfeeding', 'Postnatal'] as const).map((category) => {
           const categoryCourses = englishCourses.filter((c) => c.category === category)
           return (
             <div key={category} className="mb-14">
