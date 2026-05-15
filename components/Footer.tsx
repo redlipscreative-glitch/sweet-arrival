@@ -47,8 +47,8 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-2">
               <Camera size={16} className="text-blush shrink-0" />
-              <a href="https://instagram.com/sweetarrival.my" target="_blank" rel="noopener noreferrer" className="hover:text-blush transition-colors">
-                @sweetarrival.my
+              <a href="https://instagram.com/sweetarrival.asia" target="_blank" rel="noopener noreferrer" className="hover:text-blush transition-colors">
+                @sweetarrival.asia
               </a>
             </li>
           </ul>
