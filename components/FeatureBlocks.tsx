@@ -47,7 +47,7 @@ export default function FeatureBlocks() {
             </p>
             <Link
               href={f.href}
-              className="self-start text-mauve font-body text-sm font-semibold hover:text-charcoal transition-colors underline underline-offset-4"
+              className="self-start bg-mauve text-white font-body text-sm font-semibold px-6 py-3 rounded-2xl hover:bg-charcoal transition-colors shadow-sm"
             >
               {f.cta} →
             </Link>
