@@ -12,8 +12,7 @@ export default function HeroSection() {
         </p>
         <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl text-charcoal leading-tight mb-6">
           Your Journey to
-          <span className="block text-mauve">Motherhood,</span>
-          Celebrated
+          <span className="block text-mauve">Motherhood</span>
         </h1>
         <p className="font-body text-charcoal/60 text-base md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
           Professional maternity and newborn photoshoots, curated pregnancy courses, and everything a mum needs — all in one beautiful place.
