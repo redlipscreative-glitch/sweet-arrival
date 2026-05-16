@@ -11,11 +11,11 @@ const platformColors: Record<Product['platform'], string> = {
 export default function ProductCard({ product }: { product: Product }) {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
-      <div className="relative">
+      <div className="relative aspect-square overflow-hidden">
         <img
           src={product.imageUrl}
           alt={product.name}
-          className="w-full h-40 object-cover"
+          className="w-full h-full object-cover"
         />
         {product.badge && (
           <span className="absolute top-2 left-2 bg-mauve text-white text-xs px-2 py-1 rounded-full font-body">
