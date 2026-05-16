@@ -5,12 +5,6 @@ import { Globe, ChevronDown } from 'lucide-react'
 const languages = [
   { code: 'en', label: 'English' },
   { code: 'zh-CN', label: '中文 (简体)' },
-  { code: 'zh-TW', label: '中文 (繁體)' },
-  { code: 'ms', label: 'Bahasa Melayu' },
-  { code: 'ja', label: '日本語' },
-  { code: 'ko', label: '한국어' },
-  { code: 'th', label: 'ภาษาไทย' },
-  { code: 'id', label: 'Bahasa Indonesia' },
 ]
 
 export default function LanguageToggle() {
